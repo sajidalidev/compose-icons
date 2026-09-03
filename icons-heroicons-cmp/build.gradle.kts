@@ -51,6 +51,9 @@ kotlin {
         }
     }
 
+    tvosArm64()
+    tvosSimulatorArm64()
+
     sourceSets {
         commonMain {
             dependencies {
